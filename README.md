@@ -8,7 +8,7 @@ The dataset used for this analysis was the Power Curve Working Groups first data
 ## Pipeline Architecture
 ![image](https://github.com/user-attachments/assets/19b89159-f35e-443b-aa2a-35626c3b1e94)
 
-## Data Qaulity
+## Data Quality
 
 ## Analysis and Machine Learning Model
 
