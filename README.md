@@ -6,6 +6,7 @@ Currently companies are using formulas and linear analysis in attempts to model 
 ## Power Curve Working Group Dataset
 The dataset used for this analysis was the Power Curve Working Groups first dataset that comes from a moderately complex cold climate Swedish site surrounded by relatively low forestry. With values collected on approximately 10 minute intervals of mean wind speed and windvane at various heights as well as information on the turbine's density. The dataset contains over 10,000 examples spanning over a years worth of time and a total of 28 features.
 ## Pipeline Architecture
+![image](https://github.com/user-attachments/assets/19b89159-f35e-443b-aa2a-35626c3b1e94)
 
 ## Data Qaulity
 
