@@ -5,8 +5,7 @@ A machine learning model with a data pipeline to capture, clean, extract, analyz
 Currently companies are using formulas and linear analysis in attempts to model wind turbines, however have come up short due to the complexity of real world wind conditions. This project has attempted to take the data collected by the power curve working group, a member of the Consortium for the Advancement of Remote Sensing, and create a more realistic model of wind turbines.
 ## Power Curve Working Group Dataset
 The dataset used for this analysis was the Power Curve Working Groups first dataset that comes from a moderately complex cold climate Swedish site surrounded by relatively low forestry. With values collected on approximately 10 minute intervals of mean wind speed and windvane at various heights as well as information on the turbine's density. The dataset contains over 10,000 examples spanning over a years worth of time and a total of 28 features.  
-Location: https://pcwg.org/  
-(Select the dataset 1 to replicate results of this project)
+Location: https://pcwg.org/ (Select the dataset 1 to replicate results of this project)
 ## Pipeline Architecture
 ![image](https://github.com/user-attachments/assets/0342e015-5abf-41e4-87fe-1911c3e73be6)
 I utilized a batch ingestion pipeline, collecting the raw data with python and stored it within a data lake with AWS S3. I then used pandas a python library to transform the data, removing missing and outlier data points. Storing this clean data in a data warehouse in AWS S3. Next, I used scikit-learn a python library to extract features and run a machine learning model on the data. I collected the results from the machine learning forecasting as well as the cleaned data from the warehouse and created data visualizations within Tableau.
