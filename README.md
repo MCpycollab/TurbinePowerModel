@@ -7,9 +7,12 @@ Currently companies are using formulas and linear analysis in attempts to model 
 The dataset used for this analysis was the Power Curve Working Groups first dataset that comes from a moderately complex cold climate Swedish site surrounded by relatively low forestry. With values collected on approximately 10 minute intervals of mean wind speed and windvane at various heights as well as information on the turbine's density. The dataset contains over 10,000 examples spanning over a years worth of time and a total of 28 features.
 ## Pipeline Architecture
 ![image](https://github.com/user-attachments/assets/19b89159-f35e-443b-aa2a-35626c3b1e94)
-
-## Data Quality
-
-## Analysis and Machine Learning Model
-
-## Investigation
+### Tools
+Which pipeline did you use? Which tools?
+## Data Quality Assessment: Describe the quality status of the data set and the way you assessed it
+Data Transformation Models used: Briefly describe the transformations and models used and final results that you were able to achieve. If there are any special instructions needed to execute your code (e.g., signing up to a specific API to access the dataset that is needed) those need to be listed as well.
+## Infographic: 
+A simple infographic describing the architecture of your data pipeline including datasets, storage, and tools used along with another final infographic describing the results of the engineering task accomplished. Examples can be provided if needed.
+## Code: A link to GitHub Repository
+## Thorough Investigation: 
+This critically assesses the viability of your idea: Based on the results of this project (your pilot project, your prototype, etc), from a technical leadership point of view, what are your conclusions or recommendations for continuing this project in terms of scaling it up? How would you assess the innovativeness of your project? Any technical or platform concerns, difficulties, or limitations of the pipeline for the project? Based on your experience and results, what next step would you recommend to take this project to the next level/phase?
