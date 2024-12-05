@@ -16,6 +16,6 @@ The first transformation I had on the data was to transform the type of the time
 ## Infographic: 
 Final infographic describing the results of the engineering task accomplished. Examples can be provided if needed.
 ## Code: 
-A link to GitHub Repository
+Github Repo: https://github.com/MCpycollab/TurbinePowerModel
 ## Thorough Investigation: 
 This critically assesses the viability of your idea: Based on the results of this project (your pilot project, your prototype, etc), from a technical leadership point of view, what are your conclusions or recommendations for continuing this project in terms of scaling it up? How would you assess the innovativeness of your project? Any technical or platform concerns, difficulties, or limitations of the pipeline for the project? Based on your experience and results, what next step would you recommend to take this project to the next level/phase?
