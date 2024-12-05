@@ -14,8 +14,7 @@ The dataset the owners of the dataset is the power curve working group who colle
 ## Data Transformation Models
 The first transformation I had on the data was to transform the type of the time from a string to a date time variable. I also had to transform another sensor value from a string to a float as it was stored differently than the rest of the variables. I then transformed the missing data that they stored as the value of -99.99 to null values then removed those and any other missing data points from the dataset. With my clean data I then applied a min max scaler to the features to prevent numerical instability interferring with the model's performance. The data was then split into training and testing sets of an 80/20 split. The machine learning model I selected to utilize was a random forrest regressor from scikit-learn a python library. After training the model I was able to achieve an R-Square of 98% and a Mean Percentage Error of only 5% on the testing dataset.
 ## Infographic: 
-![image](https://github.com/user-attachments/assets/832af771-67cb-4f4b-a35e-2e9d2c22d21d)
-
+![image](https://github.com/user-attachments/assets/44339f0e-c24a-44a4-919c-01739631dafd)
 ## Code: 
 Github Repo: https://github.com/MCpycollab/TurbinePowerModel
 ## Thorough Investigation: 
