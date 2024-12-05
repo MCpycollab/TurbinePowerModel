@@ -1,5 +1,5 @@
 # Turbine Power Prediction
-A machine learning model with a data pipeline to capture, clean, extract, analyze, and store wind turbine data.
+A machine learning model with a data pipeline to capture, clean, extract, store, and analyze wind turbine data.
 # Description
 ## Project Function
 Currently companies are using formulas and linear analysis in attempts to model wind turbines, however have come up short due to the complexity of real world wind conditions. This project has attempted to take the data collected by the power curve working group, a member of the Consortium for the Advancement of Remote Sensing, and create a more realistic model of wind turbines.
