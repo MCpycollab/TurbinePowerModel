@@ -6,7 +6,7 @@ Currently companies are using formulas and linear analysis in attempts to model 
 ## Power Curve Working Group Dataset
 The dataset used for this analysis was the Power Curve Working Groups first dataset that comes from a moderately complex cold climate Swedish site surrounded by relatively low forestry. With values collected on approximately 10 minute intervals of mean wind speed and windvane at various heights as well as information on the turbine's density. The dataset contains over 10,000 examples spanning over a years worth of time and a total of 28 features.
 ## Pipeline Architecture
-![image](https://github.com/user-attachments/assets/19b89159-f35e-443b-aa2a-35626c3b1e94)
+![image](https://github.com/user-attachments/assets/0342e015-5abf-41e4-87fe-1911c3e73be6)
 I utilized a batch ingestion pipeline, collecting the raw data with python and stored it within a data lake with AWS S3. I then used pandas a python library to transform the data, removing missing and outlier data points. Storing this clean data in a data warehouse in AWS S3. Lastly I used scikit-learn a python library to extract features and run a machine learning model on the data.
 ## Data Quality Assessment: 
 Describe the quality status of the data set and the way you assessed it
